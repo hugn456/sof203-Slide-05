@@ -45,7 +45,13 @@ protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 //		e.printStackTrace();
 //	}
 
-
-	req.getRequestDispatcher("/views/Home.jsp").forward(req, resp);
+    // ví dụ về simple bean
+	// req.getRequestDispatcher("/views/Home.jsp").forward(req, resp);
+	
+	//  ví dụ về advance bean
+	//	req.getRequestDispatcher("/views/Home2.jsp").forward(req, resp);
+	
+	// ví dụ về send email
+    	req.getRequestDispatcher("/views/Email.jsp").forward(req, resp);
 }
 }
