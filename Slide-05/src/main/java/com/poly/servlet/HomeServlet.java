@@ -52,6 +52,10 @@ protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 	//	req.getRequestDispatcher("/views/Home2.jsp").forward(req, resp);
 	
 	// ví dụ về send email
-    	req.getRequestDispatcher("/views/Email.jsp").forward(req, resp);
+    //	req.getRequestDispatcher("/views/Email.jsp").forward(req, resp);
+
+    // ví dụ về cookies and session
+       req.getRequestDispatcher("/views/Login.jsp").forward(req, resp);
 }
+
 }
